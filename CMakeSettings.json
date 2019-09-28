@@ -15,7 +15,7 @@
       "intelliSenseMode": "windows-msvc-x64",
       "variables": [
         {
-          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
           "type": "PATH",
           "value": "${workspaceRoot}\\x64\\Release"
         },
@@ -41,7 +41,7 @@
       "intelliSenseMode": "windows-msvc-x64",
       "variables": [
         {
-          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
           "type": "PATH",
           "value": "${workspaceRoot}\\x64\\Debug"
         },
@@ -67,9 +67,9 @@
       "intelliSenseMode": "windows-msvc-x86",
       "variables": [
         {
-          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
           "type": "PATH",
-          "value": "${workspaceRoot}\\Release"
+          "value": "${workspaceRoot}\\x86\\Release"
         },
         {
           "name": "CMAKE_ASM_NASM_COMPILER",
@@ -93,9 +93,9 @@
       "intelliSenseMode": "windows-msvc-x86",
       "variables": [
         {
-          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "name": "CMAKE_RUNTIME_OUTPUT_DIRECTORY",
           "type": "PATH",
-          "value": "${workspaceRoot}\\Debug"
+          "value": "${workspaceRoot}\\x86\\Debug"
         },
         {
           "name": "CMAKE_ASM_NASM_COMPILER",
